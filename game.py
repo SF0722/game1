@@ -64,13 +64,12 @@ def normalise_input(user_input):
     
 def display_room(room):
    
-    rooms=["Parking","Reception","General Office"," MJ & Simon","Tutor"]
-    if room in rooms:
-        print("/n")
-        print(room.upper())
-        print("/n")
-        print(description)
-        print("/n")
+  
+        print("")
+        print(room["name"].upper())
+        print("")
+        print(room["description"])
+        print("")
 
     """This function takes a room as an input and nicely displays its name
     and description. The room argument is a dictionary with entries "name",
