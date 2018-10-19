@@ -65,11 +65,11 @@ def normalise_input(user_input):
 def display_room(room):
    
   
-        print("")
-        print(room["name"].upper())
-        print("")
-        print(room["description"])
-        print("")
+     print   ("")
+     print(room["name"].upper())
+     print("")
+     print(room["description"])
+     print("")
 
     """This function takes a room as an input and nicely displays its name
     and description. The room argument is a dictionary with entries "name",
